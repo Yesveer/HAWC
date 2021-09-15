@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  background: #F8F8F8;
+}
+
+.firstBox {
+  background-color: Yellow;
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+  border-radius: 20px 20px 20px 20px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.Boron {
+  text-align: center;
+  font-size: 53px;
+}
+
+.z {
+  text-align: left;
+  font-size: 53px;
+}
+.m {
+  font-size: 53px;
+  text-align: right;
+}
+
+.secondBox {
+  background-color: Yellow;
+  height: 220px;
+  width: 800px;
+  border-radius: 20px 20px 20px 20px;
+  padding-left: 40px;
+  padding-top: 30px;
+  margin-top: 100px;
+}
+
+.b {
+  background-color: skyblue;
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  border-radius: 20px 20px 20px 20px;
+  margin-left: 100px;
+}
+
+.c {
+  text-align: left;
+  padding: 3px;
+}
+
+.n {
+  text-align: center;
+}
+
+a:link, a:visited {
+  /* background-color: Yellow; */
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px 20px 20px 20px;
+  color: black;
+}
+.zoom {
+  transition: transform .2s;
+}
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
